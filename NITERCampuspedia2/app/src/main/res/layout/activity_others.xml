@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".others">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/adamina"
+                android:text="Photo Gallery"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/others1"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/others2"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/others3"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/others4"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/others5"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/others6"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/others7"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/others8"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/others9"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/others10"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/others11"
+                android:layout_marginBottom="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

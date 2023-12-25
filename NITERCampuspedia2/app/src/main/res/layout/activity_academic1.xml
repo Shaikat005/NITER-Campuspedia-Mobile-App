@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".academic1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Academic Building-1:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+              />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/ac1"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First floor:"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+               />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Classrooms(AC-101, AC-104 , AC-116, AC-119, AC-120, AC-121):"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="7dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac1class"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac1class1"
+                android:layout_marginBottom="20dp"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CR"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-103 Associate Professor’s Room:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+              />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac103"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-105 Wet Processing Lab-2:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+               />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac105"
+                android:layout_marginBottom="20dp"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac105"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-106,Proctor Office (Hostel Superintendent):"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+             />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac106"
+                android:layout_marginBottom="20dp"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac106"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="30dp"/>
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-107 Garments Washing Lab:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+               />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac107"
+                android:layout_marginBottom="20dp"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac107"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-108- Wet Processing Lab-1:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+              />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac108"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-109 Chemistry Lab:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac109"
+                android:layout_marginBottom="20dp"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac109"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-110 Electrical Suppurting  room:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac110"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-111, Foundry and Casting lab:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac111"
+                android:layout_marginBottom="20dp"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac111"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-112 Fluid Mechanics and Machinery Lab:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac112"
+                android:layout_marginBottom="20dp"/>
+
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac112"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-113 Physics Lab:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/physics_lab"
+                android:layout_marginBottom="20dp"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac113"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-114 Manufacturing Process Lab:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac114"
+                android:layout_marginBottom="20dp"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac114"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-115 Mechanical Workshop:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/ac115"
+                android:layout_marginBottom="20dp"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac115"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-117 Weaving Lab-1:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac117"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-118 Knitting Lab:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac118"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-122 storeroom:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Second floor:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-202(A) Computer Lab-1:"
+                android:textSize="35sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:background="@drawable/ac202"
+                android:layout_marginBottom="20dp"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac202"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-202(B) Center for Research and Industrial Relation (CRIR):"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac202B"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-203, Ergonomics and Product Design Lab(IPE):"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac203"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Classroom-- AC-204, AC-206: "
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-205, Communication and Computer Networks Lab ( CSE):"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac205"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-208 Engineering Drawing Graphic Lab:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac208"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-124 Spinning Laboratory:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac124"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Mosque"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/mosque"
+                android:layout_marginBottom="20dp"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/M"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/aclonica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC-125 Generator Room:"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+               />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

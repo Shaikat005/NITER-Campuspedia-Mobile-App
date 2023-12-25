@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".canteen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/adamina"
+                android:text="Price list and rules"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="80dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/adamina"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/adamina"
+                android:text="About"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Canteen :"
+                android:textSize="35sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:textColorHighlight="@color/purple_700"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="The canteen at our institute offers a diverse range of delicious meals,providing students with a convenient and welcoming space to socialize and recharge themeselves. With a menu catering to varied tastes, it serves as a hub for students to enjoy quality food within the campus environment."
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/canteen"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cafeteria :"
+                android:textSize="35sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:textColorHighlight="@color/purple_700"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="The cafeteria, a bustling hub within our campus, serves as a social haven where students gather to enjoy a variety of culinary delights. With a welcoming atmosphere and diverse menu options, it enhances the overall campus experience, offering a space for relaxation and camaraderie."
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/cafe"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

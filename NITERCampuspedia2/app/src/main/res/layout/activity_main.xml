@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bk2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/niter"
+                android:layout_marginBottom="20dp"/>
+
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="About NITER" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="History of NITER"/>
+
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="NITER Website"/>
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="NITER Notebot"/>
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="NITER Google map"/>
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="NITER Admin Building"/>
+
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="Academic building-1"/>
+
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="Academic building-2"/>
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="Teacher's Rooms"/>
+
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="Boys Hostel"/>
+
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="Girls Hostel"/>
+
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="Canteen and Cafeteria"/>
+
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="Transports"/>
+
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="10dp"
+                android:text="Clubs"/>
+
+
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/bg"
+                android:layout_marginBottom="40dp"
+                android:text="Others"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

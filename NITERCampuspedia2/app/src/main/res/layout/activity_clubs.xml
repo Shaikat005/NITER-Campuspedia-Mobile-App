@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clubs"
+    android:orientation="horizontal">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/adamina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notice Board"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt"
+                android:background="@drawable/textview"
+                android:fontFamily="@font/adamina"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp">
+            </TextView>
+
+            <TextView
+                android:background="@drawable/textview"
+                android:fontFamily="@font/adamina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Club Pages"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Computer Club (NCC): "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NCC"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club4"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Science Society (NSS): "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NSS"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club10"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Islamic Society (NIS): "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NIS"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club3"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Film and Photographic Society - NFPS: "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NFPS"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club5"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Games and Sports Club (NGSC): "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NGSC"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club2"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Debating Society: "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NDS"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club7"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Cultural Club (NCuC): "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NCuC"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER News: "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/News"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club6"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মাস্তুল: "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mastul"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club9"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Language CLUB - NLC: "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NLC"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club12"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Fashion Club - NFC: "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NFC"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club11"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Business and Innovation Club: "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NBIC"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club13"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Career Club: "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NCc"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club14"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NITER Wing - Team Matrix: "
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wing"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/club8"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

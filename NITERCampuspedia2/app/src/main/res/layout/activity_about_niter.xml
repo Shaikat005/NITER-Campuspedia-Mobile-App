@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutNITER">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/about1"
+                android:layout_marginBottom="20dp"/>
+
+
+           <me.biubiubiu.justifytext.library.JustifyTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:text="@string/about1"
+               android:textSize="20sp"
+               android:gravity="center"
+               android:layout_marginLeft="7dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/about2"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/about2"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/about4"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/about3"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+
+
+
+
