@@ -16,29 +16,31 @@ NITER is being operated by a ‘Governing Body’ consists of the members from B
 
 Features Our app includes the following features:
 
-History Learn about NITER's history, including its establishment, key milestones, and notable achievements.
+History: Learn about NITER's history, including its establishment, key milestones, and notable achievements.
 
-Website Explore NITER's official website, including its homepage, departments, research centers, and more.
+Website: Explore NITER's official website, including its homepage, departments, research centers, and more.
 
-NoteBot Web App Discover NoteBot, NITER's web app for taking notes, managing assignments, and collaborating with classmates.
+NoteBot Web App: Discover NoteBot, NITER's web app for taking notes, managing assignments, and collaborating with classmates.
 
-Google Map View NITER's campus map, including the location of academic buildings, hostels, transportation, and other important landmarks.
+Google Map View: NITER's campus map, including the location of academic buildings, hostels, transportation, and other important landmarks.
 
-Admin Building Learn about the Admin Building, including its location, facilities, and contact information.
+Admin Building: Learn about the Admin Building, including its location, facilities, and contact information.
 
-Academic Buildings Find information on NITER's academic buildings, including their locations, facilities, and contact information.
+Academic Buildings: Find information on NITER's academic buildings, including their locations, facilities, and contact information.
 
-Teacher's Room Discover the Teacher's Room, including its location, facilities, and contact information.
+Teacher's Room: Discover the Teacher's Room, including its location, facilities, and contact information.
 
-Boys Hostel Learn about the Boys Hostel, including its location, facilities, and contact information.
+Boys Hostel: Learn about the Boys Hostel, including its location, facilities, and contact information.
 
-Girls Hostel Find information on the Girls Hostel, including its location, facilities, and contact information.
+Girls Hostel: Find information on the Girls Hostel, including its location, facilities, and contact information.
 
-Transportation Explore NITER's transportation options, including bus routes, timings, and contact information.
+Transportation: Explore NITER's transportation options, including bus routes, timings, and contact information.
 
-Clubs Discover NITER's clubs and societies, including their activities, meetings, and contact information.
+Clubs: Discover NITER's clubs and societies, including their activities, meetings, and contact information.
 
-Features: Comprehensive Information:
+
+
+Comprehensive Information:
 
 Explore NITER's rich history and key milestones. Access the official website and Notebot web app with ease. Find your way around campus with Google Maps integration. Discover details about academic buildings, including department locations and lab facilities. Locate administrative offices and teacher's rooms. Get information about hostel life in both boys' and girls' hostels. Learn about various transportation options for getting around campus and the city. Explore the vibrant club culture at NITER and connect with like-minded individuals. User-Friendly Design:
 
